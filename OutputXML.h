@@ -5,4 +5,4 @@
 #using <System.xml.dll>
 
 using namespace System::Xml;
-void outputXML(std::vector<Node>&arr);
+void outputXML(std::vector<Node>&arr,XmlTextWriter^);

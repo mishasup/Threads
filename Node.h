@@ -23,6 +23,7 @@ public:
 	void setFirstVal(std::string);
 	void setSecondVal(std::string);
 	void setHeadName(std::string);
+	void changeFirstData(std::string);
 	bool hasFirstName();
 	bool hasFirstVal();
 	bool isFull();

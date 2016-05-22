@@ -64,6 +64,11 @@ void Node::setHeadName(std::string cur)
 	head_name = cur;
 }
 
+void Node::changeFirstData(std::string cur)
+{
+	first_value = cur;
+}
+
 bool Node::hasFirstName()
 {
 	return name_of_first_node != "";
